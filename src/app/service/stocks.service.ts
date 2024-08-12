@@ -10,7 +10,10 @@ export class StocksService implements OnDestroy {
 
   constructor() {
     // Initialize the socket connection
-    this._socket = io('http://localhost:9091/live');
+    // this._socket = io('http://localhost:9091/live');
+    this._socket = io(
+      'https://web-socket-server-node-express.onrender.com/live'
+    );
 
     // Debugging: Handle connection errors
     this._socket.on('connect_error', (error) => {
