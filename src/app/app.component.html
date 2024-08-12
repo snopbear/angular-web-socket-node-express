@@ -1,0 +1,27 @@
+@if (stockValues$ | async; as stockValues) {
+<h1>{{ title }}</h1>
+<br>
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th>Apple Stock Value</th>
+      <th>Google Stock Value</th>
+      <th>Microsoft Stock Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p>{{ stockValues[0] | currency }}</p>
+      </td>
+      <td>
+        <p>{{ stockValues[1] | currency }}</p>
+      </td>
+      <td>
+        <p>{{ stockValues[2] | currency }}</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+}
