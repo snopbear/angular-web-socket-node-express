@@ -4,6 +4,9 @@
 
 This project is an Angular 17 application that integrates Socket.IO to enable real-time, bidirectional communication between the client and server. The backend is powered by a Node.js WebSocket server, hosted at [https://web-socket-server-node-express.onrender.com](https://web-socket-server-node-express.onrender.com).
 
+
+Url in github pages : https://snopbear.github.io/angular-web-socket-node-express/ open it in two tabs and check the realtime 
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
